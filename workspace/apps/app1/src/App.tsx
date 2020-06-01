@@ -1,10 +1,9 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-const { add } = require("@cyb/package1");
+const { add } = require("@cyb/utils");
 
 function App() {
-  add(2, 3);
   return (
     <div className="App">
       <header className="App-header">
