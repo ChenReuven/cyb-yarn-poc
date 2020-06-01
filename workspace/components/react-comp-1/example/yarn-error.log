@@ -1,0 +1,69 @@
+Arguments: 
+  /Users/creuven/.nvm/versions/node/v14.0.0/bin/node /Users/creuven/.nvm/versions/node/v14.0.0/bin/yarn install
+
+PATH: 
+  /Users/creuven/.npm/_npx/37099/bin:/Users/creuven/Desktop/CyberArk/FE Guild/Monorepo/cyb-yarn-poc/node_modules/.bin:/Users/creuven/.pyenv/shims:/Users/creuven/.nvm/versions/node/v14.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/creuven/.pyenv/shims:/Users/creuven/.nvm/versions/node/v14.0.0/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/creuven/Desktop/CyberArk/FE Guild/Monorepo/cyb-yarn-poc/workspace/components/react-comp-1/node_modules/react-scripts/node_modules/@babel'
+
+npm manifest: 
+  {
+    "name": "react-comp-1-example",
+    "homepage": ".",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "dependencies": {
+      "@testing-library/jest-dom": "link:../node_modules/@testing-library/jest-dom",
+      "@testing-library/react": "link:../node_modules/@testing-library/react",
+      "@testing-library/user-event": "link:../node_modules/@testing-library/user-event",
+      "@types/jest": "link:../node_modules/@types/jest",
+      "@types/node": "link:../node_modules/@types/node",
+      "@types/react": "link:../node_modules/@types/react",
+      "@types/react-dom": "link:../node_modules/@types/react-dom",
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "typescript": "link:../node_modules/typescript",
+      "react-comp-1": "link:.."
+    },
+    "devDependencies": {
+      "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
