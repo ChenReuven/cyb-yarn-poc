@@ -4,5 +4,9 @@
     "workspace/apps/*",
     "workspace/components/*",
     "workspace/packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  },
+  "name": "cyb-yarn-poc"
 }

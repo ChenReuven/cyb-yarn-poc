@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "workspace/app/*",
+    "workspace/components/*",
+    "workspace/packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

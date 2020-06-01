@@ -1,5 +1,5 @@
 {
-  "name": "package2",
+  "name": "@cyb/package2",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,6 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "package1": "^1.0.0"
+    "@cyb/package1": "^1.0.0"
   }
 }
