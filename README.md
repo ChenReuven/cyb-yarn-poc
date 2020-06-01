@@ -34,3 +34,11 @@ run `yarn start` to run all apps
 There is a lot of commands on package.json
 
 - see in scripts
+
+### showcase
+
+!["App 1 - React App"](assets/yarn_workspace_app1_react.png)
+
+!["App 2 - Angular App"](assets/yarn_workspace_app2_angular.png)
+
+!["App 3 - Vue App"](assets/yarn_workspace_app3_vue.png)
