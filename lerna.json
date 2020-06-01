@@ -1,6 +1,6 @@
 {
   "packages": [
-    "workspace/app/*",
+    "workspace/apps/*",
     "workspace/components/*",
     "workspace/packages/*"
   ],

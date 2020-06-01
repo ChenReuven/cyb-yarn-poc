@@ -7,7 +7,7 @@ import { show } from '@cyb/logger';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'app2';
+  title = 'app2'; //
   show(msg) {
     return show(msg);
   }
