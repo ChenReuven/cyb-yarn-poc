@@ -10,8 +10,8 @@
     "lerna": "^3.22.0"
   },
   "scripts": {
-    "build": "lerna run build",
-    "build:diff": "lerna run build --since master",
+    "build": "lerna run build --loglevel verbose",
+    "build:diff": "lerna run build --since master --concurrency 3",
     "build:app1-react": "lerna run build --scope=@cyb/app1",
     "build:diff:app1-react": "lerna run build --scope=@cyb/app1 --since master",
     "build:app2-angular": "lerna run build --scope=@cyb/app2",
