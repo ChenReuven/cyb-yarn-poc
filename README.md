@@ -2,6 +2,14 @@
 
 This is a POC for Yarn workspace and Lerna
 
+### how to start?
+
+1. run `yarn install`
+2. run scripts that you want in `package.json`
+
+for example:
+run `yarn start` to run all apps
+
 ### What we have in this project?
 
 1. apps:
@@ -21,7 +29,7 @@ This is a POC for Yarn workspace and Lerna
 - logger
 - utils
 
-## scripts
+### scripts
 
 There is a lot of commands on package.json
 
