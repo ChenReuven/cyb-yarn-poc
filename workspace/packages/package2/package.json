@@ -1,6 +1,6 @@
 {
   "name": "@cyb/package2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "echo test from package2: $npm_package_version"
   },
   "dependencies": {
-    "@cyb/package1": "^1.0.2",
+    "@cyb/package1": "^1.0.3",
     "lodash": "4.17.5"
   }
 }
