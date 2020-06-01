@@ -44,3 +44,9 @@ There is a lot of commands on package.json
 !["App 2 - Angular App"](assets/yarn_workspace_app2_angular.png)
 
 !["App 3 - Vue App"](assets/yarn_workspace_app3_vue.png)
+
+### CI
+
+- still need to investigate
+
+!["CI Draw"](assets/ci_draw.png)
