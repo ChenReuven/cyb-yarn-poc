@@ -10,12 +10,16 @@
     "lerna": "^3.22.0"
   },
   "scripts": {
+    "build": "lerna run build",
+    "build:app1": "lerna run build --scope=@cyb/app1",
+    
     "test": "lerna run test",
     "test:diff": "lerna run test --since master",
     "test:package1": "lerna run test --scope=@cyb/package1",
     "test:package2": "lerna run test --scope=@cyb/package2",
     "test:utils": "lerna run test --scope=@cyb/utils",
     "test:bothPackages": "lerna run test --scope={@cyb/package1,@cyb/package2}",
+
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff"
   }
