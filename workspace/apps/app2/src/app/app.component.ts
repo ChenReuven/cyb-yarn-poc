@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-// const { add } = require('@cyb/utils');
-import { add } from '@cyb/utils';
+import { show } from '@cyb/logger';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +8,7 @@ import { add } from '@cyb/utils';
 })
 export class AppComponent {
   title = 'app2';
-  add(a, b) {
-    return add(a, b);
+  show(msg) {
+    return show(msg);
   }
 }
