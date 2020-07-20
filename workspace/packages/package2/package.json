@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@cyb/package1": "^1.0.3",
-    "lodash": "4.17.5"
+    "lodash": "4.17.19"
   }
 }
